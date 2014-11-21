@@ -1,5 +1,7 @@
 rvm:
   - 2.1.2
+
+
 before_script:
   - 'sh -e /etc/init.d/xvfb start && npm install -g istanbul'
 env:
